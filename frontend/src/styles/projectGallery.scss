@@ -1,0 +1,58 @@
+.project-gallery {
+    border: 1px solid red;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    white-space: no-wrap;
+    position: relative;
+    overflow: hidden;
+    height: 800px;
+    .slide1 {
+        animation: 20s slide1 infinite linear;
+    }
+    .slide1:hover {
+    }
+    .slide2 {
+        animation: 20s slide2 infinite linear;
+    }
+    .slide2:hover {
+    }
+}
+
+.project-gallery:before, .project-gallery:after {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  content: "";
+  z-index: 2;
+}
+.project-gallery:before {
+  background: linear-gradient(to top, rgba(255, 255, 255, 0), #ffffff);
+  top: 0;
+}
+
+.project-gallery:after {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #ffffff);
+  bottom: 0;
+}
+
+@keyframes slide1 {
+  from {
+    transform: translateY(0)
+  }
+  to {
+    transform: translateY(-100%)
+  }
+}
+
+@keyframes slide2 {
+  from {
+    transform: translateY(-100%)
+  }
+  to {
+    transform: translateY(0)
+  }
+}
