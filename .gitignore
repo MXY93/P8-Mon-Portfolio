@@ -13,7 +13,8 @@ backend/node_modules/
 
 # Yarn lock file
 yarn.lock
-
+# Package lock json
+package-lock.json
 # Build directories
 frontend/build/
 backend/build/
