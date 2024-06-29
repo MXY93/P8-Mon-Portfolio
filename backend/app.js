@@ -8,6 +8,8 @@ const logger = require('./logger');
 const rateLimit = require('express-rate-limit');
 const helmet = require('helmet');
 const csrf = require('csurf');
+const path = require('path');
+const fs = require('fs');
 require('dotenv').config();
 
 const app = express();
@@ -51,6 +53,16 @@ const transporter = nodemailer.createTransport({
     },
 });
 
+const sslServer = https.createServer(
+  {
+    key: fs.readFileSync(path.join(__dirname, 'cert', 'key.pem')),
+    cert: fs.readFileSync(path.join(__dirname, 'cert', 'cert.pem')),
+  },
+  app
+)
+
+sslServer.listen(3443, () => console.log('Secure server on port 3443'))
+
 const validateRecaptcha = async (recaptchaToken) => {
   const response = await axios.post(`https://www.google.com/recaptcha/api/siteverify?secret=${recaptchaSecretKey}&response=${recaptchaToken}`);
   return response.data.success;
@@ -92,6 +104,12 @@ app.post('/api/contact', [
       logger.info('Email sent: ' + info.response);
       res.status(200).json({ success: 'Email envoyé avec succès' });
     });
+});
+
+app.use(express.static(path.join(__dirname, 'build')));
+
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
 app.get('/', (req, res) => {
