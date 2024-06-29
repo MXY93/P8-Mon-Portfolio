@@ -1,12 +1,12 @@
-import html from '../assets/tech/html.png';
-import css from '../assets/tech/css.png';
-import javascript from '../assets/tech/javascript.png';
-import nodejs from '../assets/tech/nodejs.png';
-import reactjs from '../assets/tech/reactjs.png';
-import git from '../assets/tech/git.png';
-import mongodb from '../assets/tech/mongodb.png';
-import expressjs from '../assets/tech/expressjs.png';
-import Sass from '../assets/tech/Sass.png';
+import html from '../assets/tech/html.webp';
+import css from '../assets/tech/css.webp';
+import javascript from '../assets/tech/javascript.webp';
+import nodejs from '../assets/tech/nodejs.webp';
+import reactjs from '../assets/tech/reactjs.webp';
+import git from '../assets/tech/git.webp';
+import mongodb from '../assets/tech/mongodb.webp';
+import expressjs from '../assets/tech/expressjs.webp';
+import Sass from '../assets/tech/Sass.webp';
 const technologies = [
     {
         name: "HTML 5",
