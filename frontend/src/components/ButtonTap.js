@@ -10,7 +10,7 @@ export default function ButtonTap({ imgSrc, alt, text, onClick }) {
       transition={{ type: "spring", stiffness: 400, damping: 17 }}
       onClick={onClick}
     >
-      <img src={imgSrc} alt={alt}/>
+      <img src={imgSrc} loading="lazy" alt={alt}/>
       <p>{text}</p>
     </motion.button>
   );

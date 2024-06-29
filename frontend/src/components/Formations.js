@@ -1,5 +1,5 @@
 import { Tilt } from 'react-tilt';
-import OC from '../assets/OC.png';
+import OC from '../assets/OC.webp';
 import '../styles/formations.scss';
 import { technologies } from '../constants';
 import { useTranslation, Trans } from 'react-i18next';
@@ -25,10 +25,10 @@ export default function Formations() {
 			<h2>{t("section_title__education")}</h2>
             <Tilt options={defaultOptions} className="formation--card" >
 				<div className='formation--img-n-skills' >
-					<img src={OC} alt="Hello" />
+					<img src={OC} loading="lazy" alt="Hello" />
 					<div className='formation--skills'>
 						{technologies.map((tech, index) => (
-							<img key={index} src={tech.icon} alt={tech.name} title={tech.name} />
+							<img key={index} src={tech.icon} loading="lazy" alt={tech.name} title={tech.name} />
 						))}
 					</div>
 				</div>

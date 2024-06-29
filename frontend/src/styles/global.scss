@@ -98,7 +98,7 @@ body.lightmode {
   body.lightmode .switchBtn {
   
     .switchBtn__background {
-        background-image: url("../assets/lightBckgrdImg.png");
+        background-image: url("../assets/lightBckgrdImg.webp");
     }
     .switchBtn__icon_container .switchBtn_icon {
       color: var(--light-icon-color);
@@ -108,7 +108,7 @@ body.lightmode {
   body.darkmode .switchBtn {
   
     .switchBtn__background {
-      background-image: url("../assets/darkBckgrdImg.png");
+      background-image: url("../assets/darkBckgrdImg.webp");
     }
     .switchBtn__indicator {
       background-color: var(--dark-color);

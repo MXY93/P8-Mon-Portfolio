@@ -5,8 +5,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import Profile from './Profile';
 import ButtonTap from './ButtonTap';
-import skillIcon from "../assets/SkillThree.png";
-import laptopTyper from '../assets/presentation-laptop.png'
+import skillIcon from "../assets/SkillThree.webp";
+import laptopTyper from '../assets/presentation-laptop.webp'
 import "../styles/presentation.scss"
 
 export default function Presentation () {
@@ -36,7 +36,7 @@ export default function Presentation () {
         <div className="presentation-container" >
             <div className="presentation-container---scene--titles--profile-n-links">
                 <div>
-                    <img src={laptopTyper} alt="Man typing on a computer" className='laptopTyper' />
+                    <img src={laptopTyper} loading="lazy" alt="Man typing on a computer" className='laptopTyper' />
                 </div>
                 <section className="presentation-container--titles"> 
                     <h1>Maxime Videau Penez</h1>
@@ -68,7 +68,7 @@ export default function Presentation () {
                         Passionné par le développement web, mon objectif à long terme serait de mener des projets de grandes envergures ayant un réel impact sociétal ou environnemental.
                     </Trans>
                 </p>
-                <ButtonTap imgSrc={skillIcon} alt="skill" text={t("button_skills")} onClick={() => handleScroll('skills')} />
+                <ButtonTap imgSrc={skillIcon} loading="lazy" alt="skill" text={t("button_skills")} onClick={() => handleScroll('skills')} />
             </div>           
         </div>
     );

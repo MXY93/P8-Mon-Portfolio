@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/header.scss";
-import mvp from "../assets/portfolio-logo.png";
+import mvp from "../assets/portfolio-logo.webp";
 import { useTranslation } from 'react-i18next';
 import ToggleButton from "./ToggleButton";
 import LanguageToggleButton from "./LangToggleButton";
@@ -53,7 +53,7 @@ const Header = () => {
   return (
     <header>
       <nav className="navbar" id="header" ref={menuRef}>
-        <img className="logo" src={mvp} alt="logo MVP" />
+        <img className="logo" loading="lazy" src={mvp} alt="logo MVP" />
         <button className="menu-toggle" onClick={toggleMenu}>
           <span className="menu-icon" dangerouslySetInnerHTML={{ __html: menuIcon }}></span>
         </button>

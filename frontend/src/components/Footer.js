@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import '../styles/footer.scss';
-import logo from '../assets/portfolio-logo.png';
+import logo from '../assets/portfolio-logo.webp';
 
 export default function Footer() {
 
@@ -8,7 +8,7 @@ export default function Footer() {
 
     return (
     <footer>
-        <img src={logo} alt="logo" />
+        <img src={logo} loading="lazy" alt="logo" />
         <p>© 2024 Maxime Videau Penez.<br /> {t("footer_text")}</p>
     </footer>
     );

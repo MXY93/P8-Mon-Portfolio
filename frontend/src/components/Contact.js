@@ -5,7 +5,7 @@ import * as Yup from 'yup';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
 import ReCAPTCHA from 'react-google-recaptcha';
-import EmailAnimation from "../assets/contact-icon.png";
+import EmailAnimation from "../assets/contact-icon.webp";
 import '../styles/contact.scss';
 
 const ContactForm = () => {
@@ -111,7 +111,7 @@ const ContactForm = () => {
           </Form>
         )}
       </Formik>
-      <img src={EmailAnimation} alt="Sending email animation" />
+      <img src={EmailAnimation} loading="lazy" alt="Sending email animation" />
     </div>
   );
 };

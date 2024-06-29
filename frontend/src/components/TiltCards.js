@@ -29,7 +29,7 @@ export default function TiltCard({ image, altText, title, description, skills, r
     return (
         <Tilt options={defaultOptions} className="projects--tilt-card">
             <div className="projects---tilt-card--img-n-icon">
-                <img src={image} alt={altText} />
+                <img src={image} loading="lazy" alt={altText} />
                 <FontAwesomeIcon icon={faGithub} size="xl" className="faGithub" onClick={handleGithubClick} />
                 <div className="hover-text">{t("tilt_card__ovrly")}</div>
             </div>

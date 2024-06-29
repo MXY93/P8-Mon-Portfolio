@@ -27,7 +27,7 @@ function ProjectCard({ image, title, description, descriptionOvl, skills = [] })
     <>
       <div className="project-card">
         <div className="project-card-content">
-          <img src={image} alt="Project screenshot" className="project-image" />
+          <img src={image} loading="lazy" alt="Project screenshot" className="project-image" />
           <div className="overlay">
             {isMobile ? (
               <ModalButton 

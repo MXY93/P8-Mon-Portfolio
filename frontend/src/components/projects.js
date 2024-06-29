@@ -1,8 +1,8 @@
 import { useTranslation } from 'react-i18next';
-import Booki from '../assets/projects/Booki-project.png';
-import Bluel from '../assets/projects/Bluel-project.png';
-import Kasa from '../assets/projects/Kasa-project.png';
-import Grimoire from '../assets/projects/MVG-project.png';
+import Booki from '../assets/projects/Booki-project.webp';
+import Bluel from '../assets/projects/Bluel-project.webp';
+import Kasa from '../assets/projects/Kasa-project.webp';
+import Grimoire from '../assets/projects/MVG-project.webp';
 import { technologies } from '../constants';
 
 export const useTranslatedProjects = () => {

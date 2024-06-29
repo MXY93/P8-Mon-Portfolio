@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import frFlag from '../assets/frFlag.png';
-import angFlag from '../assets/angFlag.png';
-import frBackground from '../assets/fondFr.png';
-import angBackground from '../assets/fondAng.png';
+import frFlag from '../assets/frFlag.webp';
+import angFlag from '../assets/angFlag.webp';
+import frBackground from '../assets/fondFr.webp';
+import angBackground from '../assets/fondAng.webp';
 import styles from '../styles/Switch.module.scss';
 
 export default function LanguageToggleButton() {
@@ -89,7 +89,7 @@ export default function LanguageToggleButton() {
         }}
       >
         <div className={styles.switchBtn__icon_container}>
-          <img src={isEnglish ? angFlag : frFlag} alt={isEnglish ? 'English Flag' : 'French Flag'} className={styles.switchBtn_icon} />
+          <img src={isEnglish ? angFlag : frFlag} loading="lazy" alt={isEnglish ? 'English Flag' : 'French Flag'} className={styles.switchBtn_icon} />
         </div>
       </div>
     </div>
