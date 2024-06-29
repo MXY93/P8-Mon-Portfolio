@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/P8-Mon-Portfolio/static/css/main.387aa015.css",
+    "main.js": "/P8-Mon-Portfolio/static/js/main.18b52771.js",
+    "static/js/845.4042236e.chunk.js": "/P8-Mon-Portfolio/static/js/845.4042236e.chunk.js",
+    "static/media/profile-3D.webp": "/P8-Mon-Portfolio/static/media/profile-3D.fa688078bc2d89b3810f.webp",
+    "static/media/Kasa-project.webp": "/P8-Mon-Portfolio/static/media/Kasa-project.2030c4772e64b1a2a306.webp",
+    "static/media/Bluel-project.webp": "/P8-Mon-Portfolio/static/media/Bluel-project.a99b6b6cb9f0fb6db2eb.webp",
+    "static/media/Booki-project.webp": "/P8-Mon-Portfolio/static/media/Booki-project.6463b1a82c58f17d1c56.webp",
+    "static/media/MVG-project.webp": "/P8-Mon-Portfolio/static/media/MVG-project.224633ee8b36c5c81ff0.webp",
+    "static/media/portfolio-logo.webp": "/P8-Mon-Portfolio/static/media/portfolio-logo.3b130ac0a92ae9ad2838.webp",
+    "static/media/profile-pic.webp": "/P8-Mon-Portfolio/static/media/profile-pic.2762b69a5254dbae5c32.webp",
+    "static/media/presentation-laptop.webp": "/P8-Mon-Portfolio/static/media/presentation-laptop.298c2358957a5791bb44.webp",
+    "static/media/SkillThree.webp": "/P8-Mon-Portfolio/static/media/SkillThree.25281e1a043e366efe22.webp",
+    "static/media/contact-icon.webp": "/P8-Mon-Portfolio/static/media/contact-icon.11e7f2510bb9bfb8508c.webp",
+    "static/media/lightBckgrdImg.webp": "/P8-Mon-Portfolio/static/media/lightBckgrdImg.ac05ea2d1d0854c18710.webp",
+    "static/media/Sass.webp": "/P8-Mon-Portfolio/static/media/Sass.d96bb860b0b008d94229.webp",
+    "static/media/angFlag.webp": "/P8-Mon-Portfolio/static/media/angFlag.2306d4fbcc8b5cefd6d3.webp",
+    "static/media/fondAng.webp": "/P8-Mon-Portfolio/static/media/fondAng.6368f7171d5291b74dd7.webp",
+    "static/media/darkBckgrdImg.webp": "/P8-Mon-Portfolio/static/media/darkBckgrdImg.9d2c0fcff674a98916a8.webp",
+    "static/media/mongodb.webp": "/P8-Mon-Portfolio/static/media/mongodb.f894515eed79aa63bea7.webp",
+    "static/media/nodejs.webp": "/P8-Mon-Portfolio/static/media/nodejs.f0eb67845bf65185c0bf.webp",
+    "static/media/frFlag.webp": "/P8-Mon-Portfolio/static/media/frFlag.46f668e671d6adfe2bb3.webp",
+    "static/media/reactjs.webp": "/P8-Mon-Portfolio/static/media/reactjs.24110a29f14f79142342.webp",
+    "static/media/OC.webp": "/P8-Mon-Portfolio/static/media/OC.65947da5528050a8f1c5.webp",
+    "static/media/git.webp": "/P8-Mon-Portfolio/static/media/git.38a885ff09c92a0907f7.webp",
+    "static/media/css.webp": "/P8-Mon-Portfolio/static/media/css.ef6ccb5b00e84e3801f5.webp",
+    "static/media/html.webp": "/P8-Mon-Portfolio/static/media/html.5e9e8231420b58e09c14.webp",
+    "static/media/fondFr.webp": "/P8-Mon-Portfolio/static/media/fondFr.53a6c829b50dac4281b1.webp",
+    "static/media/expressjs.webp": "/P8-Mon-Portfolio/static/media/expressjs.8467519e55110f3e31f0.webp",
+    "static/media/javascript.webp": "/P8-Mon-Portfolio/static/media/javascript.caf9d729a3b0d533c491.webp",
+    "index.html": "/P8-Mon-Portfolio/index.html",
+    "static/media/getFetch.cjs": "/P8-Mon-Portfolio/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
+    "main.387aa015.css.map": "/P8-Mon-Portfolio/static/css/main.387aa015.css.map",
+    "main.18b52771.js.map": "/P8-Mon-Portfolio/static/js/main.18b52771.js.map",
+    "845.4042236e.chunk.js.map": "/P8-Mon-Portfolio/static/js/845.4042236e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.387aa015.css",
+    "static/js/main.18b52771.js"
+  ]
+}
