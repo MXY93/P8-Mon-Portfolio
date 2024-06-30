@@ -7,11 +7,11 @@ body.darkmode {
     .headerLink a {
       color: $light-color;
       &::before {
-        background-color: #00FFCB;
-        box-shadow: 0 0 20px #00FFCB;
+        background-color: $darkmode-link-color;
+        box-shadow: 0 0 20px $darkmode-link-color;
       }
       &:hover {
-        color: #00FFCB
+        color: $darkmode-link-color;
       }
     }
     
@@ -20,15 +20,12 @@ body.darkmode {
                   inset 8px 0 8px rgba(0, 0, 0, .3),
                   inset 0 -4px 4px rgba(0, 0, 0, .3); 
   
-      .switchBtn__background {
-        background-image: url("../assets/darkBckgrdImg.webp")
-      }
       .switchBtn__indicator {
-        background-color: var(--dark-color);
+        background-color: $dark-icon-bckgrd;
         box-shadow: 0 8px 40px rgba(0,0,0, .3);
   
         .switchBtn__icon_container .switchBtn_icon {
-          color: var(--dark-icon-color);
+          color: $dark-icon-color;
         }
       }
     }
