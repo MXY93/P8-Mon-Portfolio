@@ -1,3 +1,4 @@
+import React from 'react';
 import { Tilt } from 'react-tilt';
 import OC from '../assets/OC.webp';
 import '../styles/formations.scss';

@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import "../styles/header.scss";
 import mvp from "../assets/portfolio-logo.webp";
 import { useTranslation } from 'react-i18next';
-import ToggleButton from "./ToggleButton";
+import DarkModeToggleButton from "./DarkModeToggleButton";
 import LanguageToggleButton from "./LangToggleButton";
 import '../styles/darkmode.scss';
 
@@ -78,7 +78,7 @@ const Header = () => {
           <span>Maxime <br />Videau</span>
         </div>
         <div className="headerBtns">
-          <ToggleButton /> 
+          <DarkModeToggleButton /> 
           <div className="langBtn">
             <LanguageToggleButton />
           </div>
