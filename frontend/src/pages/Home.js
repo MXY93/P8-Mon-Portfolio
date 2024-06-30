@@ -1,3 +1,4 @@
+import React from 'react';
 import Presentation from "../components/Presentation";
 import ProjectGallery from "../components/ProjectGallery";
 import Formations from "../components/Formations";

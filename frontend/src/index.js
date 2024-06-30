@@ -5,8 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './i18n';
 import DarkModeProvider from './DarkModeProvider';
-import './styles/global.scss';
-
+import './styles/global.scss'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
